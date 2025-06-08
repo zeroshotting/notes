@@ -1,4 +1,4 @@
-## 1. Logical vs Factual Truth
+## Logical vs Factual Truth
 
 **Logical truth** refers to a statement that is true by virtue of its logical form, regardless of any particular facts about the world. For example, the statement "If all humans are mortal and Socrates is a human, then Socrates is mortal" is logically true because of its structure.
 
@@ -6,7 +6,7 @@
 
 Logic provides a framework for analyzing the structure of reasoning. It does not evaluate the truth of premises in the real world but determines what conclusions must follow if those premises are true.
 
-## 2. Truth Values in Propositional Logic
+## Truth Values in Propositional Logic
 
 In propositional logic, every atomic proposition is assigned a truth value: either true (T) or false (F). These assignments are abstract and typically used to model real-world statements.
 
@@ -16,7 +16,7 @@ For example:
 
 Statements involving $p$ and $q$ are analyzed according to formal rules without regard to their actual content.
 
-## 3. The Logical Implication $(p → q)$
+## The Logical Implication $(p → q)$
 
 A logical implication $p \implies q$ is interpreted as "if $p$, then $q$." Its truth table is defined as follows:
 
@@ -31,7 +31,7 @@ An implication is only false when the premise is true and the conclusion is fals
 
 For example, the statement "If Fortune is a rabbit, then Charles has no money" is logically true if "Fortune is a rabbit" is false. The implication is not making a meaningful claim about the world; it is a truth of form.
 
-## 4. Vacuous Truths
+## Vacuous Truths
 
 A vacuous truth arises when a universal statement refers to an empty domain or a false premise. In such cases, the statement is considered true because there are no counterexamples.
 
@@ -41,7 +41,7 @@ For instance:
 
 This convention avoids logical contradictions and simplifies reasoning.
 
-## 5. Relevance to Mathematics
+## Relevance to Mathematics
 
 Vacuous truths play an important role in formal mathematics, particularly when dealing with universal quantifiers.
 
@@ -52,7 +52,7 @@ If the set S is empty, this statement is considered true. Since there are no ele
 
 Rejecting vacuous truth would require every universally quantified statement over an empty set to be false, which would introduce unnecessary complications and exceptions in formal proofs. By treating such statements as true, logic and mathematics remain consistent, general, and clean.
 
-## 6. Summary
+## Summary
 
 - Logical truth depends on form; factual truth depends on real-world evidence.
 - Implications are only false when the premise is true and the conclusion is false.

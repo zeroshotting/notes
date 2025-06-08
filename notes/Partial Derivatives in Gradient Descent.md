@@ -36,5 +36,3 @@ If we have two weights $w_1$ and $w_2$ with our cost function $J$, and the bias 
 All parameters are updated simultaneously to ensure a consistent descent direction. Also, to reiterate, the gradient shows us the direction of steepest descent so moving in the opposite direction is what we want, which is why we subtract the gradient from the current value. We can scale the movement using the learning rate $\alpha$.
 ## Further  Reading
 - [[Gradient Descent]]
-- [[Vectors]]
-- [[Neural Networks]]

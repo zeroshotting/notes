@@ -36,5 +36,5 @@ C Lang:
 + K & R Book
 
 Functional Programming:
-+ Learn You a Haskellfor Great Good
++ Learn You a Haskell for Great Good
 + [Write Yourself A Scheme](https://wespiser.com)

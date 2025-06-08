@@ -1,11 +1,32 @@
-This note is relevant to (multiple) linear regression.
+This note is relevant to [[Multiple Linear Regression|(multiple) linear regression]].
 
-Sometimes, having features that differ vastly in range can produce problems in the training process. For example, in a model that is to predict the price of houses based on the size of the house and number of bedrooms, if the size of the house ranged from 0 - 2000 feet and the number fo bedrooms ranged from 0 - 5 rooms, the parameters for both features would vary greatly. To ensure model accuracy, parameters would have to compensate for the size of the feature values. The parameter corresponding to the size of the house in feet would need to be relatively small compared to the parameter corresponding to the number of rooms in the house. We would have something like this:
+Sometimes, having features that differ vastly in range can produce problems during training. For example, in a model that predicts house price based on the size of the house and number of bedrooms:
 
-$$ f_{w,b} = \mathbf w_1 \cdot \mathbf x_1 + \mathbf w_2 \cdot \mathbf x_2 + b$$
-where $\mathbf x_1$ represents the size of the house, and $\mathbf w_2$ represents the number of rooms in the house. If a house of size 2000 feet and 5 bedrooms cost $500k, which of they following equations would model the data more accurately?
-$$ f_{w,b} = 0.1 \mathbf x_1 + 50 \mathbf x_2 + 50$$
-$$ f_{w,b} = 50 \mathbf x_1 + 0.1 \mathbf x_2 + b $$
-The second would produce a value that is far too large, so the answer is the second. With this, we can deduce that changes in $\mathbf w_1$ would affect the output value far more than comparable changes in $\mathbf w_2$ because of the size of the values that are being multiplied.
+$$ f_{w,b} = \mathbf w_1 \cdot \mathbf x_1 + \mathbf w_2 \cdot \mathbf x_2 + b $$
 
-If we tried to visualize $\mathbf w_1$, $\mathbf w_2$, and $J(w,b)$ using a contour plot, we'd notice quickly that the shape of the contours are skewed. They would appear elongated (due to difference in ranges). And if gradient descent is performed on the training data in such a state, it might end up bouncing back and forth for a long time before arriving at the global minimum. In such situations, it would help greatly to scale the features such that they become comparable in range.
+where $\mathbf x_1$ is the house size (in square feet) and $\mathbf x_2$ is the number of bedrooms.
+
+If the house size ranges from 300–2000 feet and bedroom count from 0–5, then the input features differ significantly in scale. To keep predictions accurate, the model must compensate by adjusting the parameter magnitudes accordingly. For instance, given a house of 2000 ft^2 and 5 bedrooms priced at $500k:
+
+- Equation 1: 
+
+$$ f=0.1⋅2000+50⋅5+50=500 $$
+$$ f = 0.1 \cdot 2000 + 50 \cdot 5 + 50 = 500 $$
+
+- Equation 2: 
+
+$$ f=50⋅2000+0.1⋅5+b $$
+$$ f = 50 \cdot 2000 + 0.1 \cdot 5 + b $$
+
+results in an unrealistically large value
+
+So the first equation more accurately models the data. This shows how large-magnitude inputs lead to smaller weight values to prevent them from dominating the output.
+
+If we plot the cost function $J(w,b)$ over $\mathbf w_1$ and $\mathbf w_2$, we observe skewed, elongated contours due to the disproportionate feature ranges. Gradient descent on such a landscape will zigzag inefficiently, delaying convergence.
+
+In such situations, it helps greatly to scale the features so they become comparable in range. So how do we go about achieving this? There are two ways:
+
+- Method 1: Basic min-max scaling
+$$ x_{n,scaled} = \frac{x_n}{x_{max}} $$
+- Method 2: Mean normalization
+$$ x_{j,scaled} = \frac{x_j - \mu}{x_{max} - x_{min}} $$

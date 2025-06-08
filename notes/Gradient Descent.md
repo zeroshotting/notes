@@ -25,5 +25,4 @@ Gradient Descent Update Function.
  $$
 
 ## Further  Reading
-- [[Neural Networks]]
 - [[Partial Derivatives in Gradient Descent]]
