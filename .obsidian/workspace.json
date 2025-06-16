@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "scratch/Feature Scaling.md",
+                "file": "scratch/RE 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Feature Scaling"
+              "title": "RE 1"
             }
           },
           {
@@ -27,15 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "scratch/Multiple Linear Regression.md",
+                "file": "scratch/Debugging Gradient Descent.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Multiple Linear Regression"
+              "title": "Debugging Gradient Descent"
+            }
+          },
+          {
+            "id": "1679761e99013cb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "scratch/Feature Scaling.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Feature Scaling"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -92,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "2d5bea29a01e9f61",
@@ -180,16 +196,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "5a14130c715749d9",
+  "active": "fa9df4896c2c06d3",
   "lastOpenFiles": [
-    "scratch/Multiple Linear Regression.md",
-    "scratch/Binary Search.md",
     "scratch/Feature Scaling.md",
+    "scratch/Debugging Gradient Descent.md",
+    "scratch/RE 1.md",
+    "scratch/Multiple Linear Regression.md",
+    "drawings/Scratch.md",
+    "scratch/Binary Search.md",
     "scratch/Funky JavaScript OOP.md",
     "scratch/ML Math Notes.md",
     "scratch/Linear Regression.md",
     "scratch/Implications and Vacuous Truths.md",
-    "drawings/Scratch.md",
     "notes/Gradient Descent.md",
     "notes/Learning Goals.md",
     "scratch/Intro to ML.md",
@@ -206,8 +224,6 @@
     "notes/Linear Transformation.md",
     "notes/Vectors.md",
     "notes/Scalar Multiplication.md",
-    "notes/Vector Addition.md",
-    "scratch/S.md",
     "Pasted image 20250430131115.png",
     "Pasted image 20250430131030.png",
     "Pasted image 20250430131028.png",
