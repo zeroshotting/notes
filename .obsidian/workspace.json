@@ -69,7 +69,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byCreatedTime",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -197,14 +197,14 @@
   },
   "active": "9d22e9d070ea53c0",
   "lastOpenFiles": [
+    "Feature Scaling.md",
+    "Debugging Gradient Descent.md",
+    "Partial Derivatives in Gradient Descent.md",
     "Multiple Linear Regression.md",
     "NumPy.md",
-    "Partial Derivatives in Gradient Descent.md",
-    "Feature Scaling.md",
     "Gradient Descent.md",
     "Linear Regression.md",
     "Intro to ML.md",
-    "Debugging Gradient Descent.md",
     "Vectorized Dot Product in C.md",
     "Time Management.md",
     "Scheme Basics.md",

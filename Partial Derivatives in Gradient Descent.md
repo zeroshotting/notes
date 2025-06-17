@@ -1,7 +1,7 @@
 ---
 created: 2025-03-16
 confidence level: low
-review count: 0
+review count: 1
 ---
 ## Explanation
 ---
@@ -18,7 +18,7 @@ This vector is computed as:
 
 $$ \nabla J = [\frac{\partial J}{\partial w_1}, \frac{\partial J}{\partial w_2}] $$
 
-The partial derivatives of the cost function with respect to $w_1$ and $w_2$ respectively, are the components of the gradient vector. These individual partial derivatives can be understood to be directional derivatives along their respective axes. A directional derivative is the rate at which a function changes in a specific direction from a particular point. Directional derivatives are only partials when the direction aligns with the axes.
+The partial derivatives with respect to $w_1$ and $w_2$ are the components of the gradient vector. These individual partial derivatives can be understood to be directional derivatives along their respective axes. A directional derivative is the rate at which a function changes in a specific direction from a particular point. Directional derivatives are only partials when the direction aligns with the axes.
 
 ## Further  Reading
 - [[Linear Regression]]

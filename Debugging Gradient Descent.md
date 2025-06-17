@@ -20,4 +20,4 @@ To ascertain the point at which gradient descent converges, we can observe the p
 ---
 - [[Gradient Descent]]
 - [[Linear Regression]]
-- [[Multiple Linear Regression]]
+- [[Multiple Linear Regression]
