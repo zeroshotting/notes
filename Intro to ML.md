@@ -1,6 +1,6 @@
 ---
 created: 2025-04-08
-confidence level: low
+confidence level: high
 review count: 0
 ---
 Machine Learning is the process of enabling computers to learn from data and make decisions or predictions without being explicitly programmed to do so.
@@ -22,5 +22,4 @@ Other supervised learning algorithms include anomaly detection (used in fraud de
 ## Further  Reading
 - [[Linear Regression]]
 - [[ML Math Introduction]]
-- [[Reinforcement Learning]]
 - [[Gradient Descent]]

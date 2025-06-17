@@ -13,7 +13,7 @@ With regular linear regression there is a single input, $x$ used to predict a si
 
 Example model definition for multiple linear regression:
 
-$$f_{\mathbf w,b}(\mathbf x) = \mathbf w_1 \cdot \mathbf x_1 + \mathbf w_2 \cdot \mathbf x_2 + \cdots + \mathbf w_n \cdot \mathbf x_n + b$$
+$$f_{\mathbf w,b}(x) = w_1 \cdot x_1 + w_2 \cdot x_2 + \cdots + w_n \cdot x_n + b$$
 $$or$$
 $$f_{\mathbf w,b}(\mathbf x)=\mathbf w \cdot \mathbf x + b$$
 # Vectorization
