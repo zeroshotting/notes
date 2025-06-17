@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "scratch/Debugging Gradient Descent.md",
+                "file": "Debugging Gradient Descent.md",
                 "mode": "source",
                 "source": false
               },
@@ -41,16 +41,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "scratch/Feature Scaling.md",
+                "file": "Feature Scaling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Feature Scaling"
             }
+          },
+          {
+            "id": "9d22e9d070ea53c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Partial Derivatives in Gradient Descent.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Partial Derivatives in Gradient Descent"
+            }
+          },
+          {
+            "id": "eae44fd97e9a0e1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vectorized Dot Product in C.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Vectorized Dot Product in C"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -107,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "2d5bea29a01e9f61",
@@ -196,34 +223,34 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "fa9df4896c2c06d3",
+  "active": "eae44fd97e9a0e1f",
   "lastOpenFiles": [
-    "scratch/Feature Scaling.md",
-    "scratch/Debugging Gradient Descent.md",
-    "scratch/RE 1.md",
-    "scratch/Multiple Linear Regression.md",
+    "Time Management.md",
+    "Scheme Basics.md",
+    "README.md",
+    "Partial Derivatives in Gradient Descent.md",
+    "On The Issue of Prayer.md",
+    "NumPy.md",
+    "Multiple Linear Regression.md",
+    "ML Math Introduction.md",
+    "Long notes on Web Development.md",
+    "Linear Regression.md",
+    "Learning Goals.md",
+    "Latent Cognition and LLM Parallels - A Personal Observation.md",
+    "Intro to ML.md",
+    "Implications and Vacuous Truths.md",
+    "Hobby Corner.md",
+    "Gradient Descent.md",
+    "Funky JavaScript OOP.md",
+    "Feature Scaling.md",
+    "Debugging Gradient Descent.md",
+    "C Hexdump Program.md",
+    "Binary Search.md",
+    "Vectorized Dot Product in C.md",
+    "Reinforcement Learning.md",
+    "templates/note-template.md",
     "drawings/Scratch.md",
-    "scratch/Binary Search.md",
-    "scratch/Funky JavaScript OOP.md",
-    "scratch/ML Math Notes.md",
-    "scratch/Linear Regression.md",
-    "scratch/Implications and Vacuous Truths.md",
-    "notes/Gradient Descent.md",
-    "notes/Learning Goals.md",
-    "scratch/Intro to ML.md",
-    "notes/Reinforcement Learning.md",
-    "scratch/Scheme Basics.md",
-    "notes/C Hexdump Program.md",
     "drawings/Understanding GEMM.md",
-    "scratch/Leisure.md",
-    "scratch/NumPy.md",
-    "scratch/On The Issue of Prayer.md",
-    "scratch/Time Management.md",
-    "scratch/Vectorized Dot Product in C.md",
-    "notes/Partial Derivatives in Gradient Descent.md",
-    "notes/Linear Transformation.md",
-    "notes/Vectors.md",
-    "notes/Scalar Multiplication.md",
     "Pasted image 20250430131115.png",
     "Pasted image 20250430131030.png",
     "Pasted image 20250430131028.png",

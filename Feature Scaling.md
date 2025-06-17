@@ -1,3 +1,10 @@
+---
+created: 2025-06-15
+confidence level: low
+review count: 0
+---
+# Intro
+---
 This note is relevant to [[Multiple Linear Regression|(multiple) linear regression]].
 
 Sometimes, having features that differ vastly in range can produce problems during training. For example, in a model that predicts house price based on the size of the house and number of bedrooms:
@@ -22,6 +29,8 @@ results in an unrealistically large value
 
 So the first equation more accurately models the data. This shows how large-magnitude inputs lead to smaller weight values to prevent them from dominating the output.
 
+# Further Explanation
+---
 Let's take a deeper look at what is going on here. If we plot plot the loss function $J(w,b)$ over $\mathbf w_1$ and $\mathbf w_2$, we observe that the resulting paraboloid looks a bit _squeezed_. This is because the loss function is more sensitive to changes in $\mathbf x_1$ and far less sensitive to changes in $\mathbf x_2$. As you can imagine, that would mean that beyond a certain small range of values for $\mathbf w_2$, $\mathbf x_1$ balloons quickly For $\mathbf x_2$, there'd need to be big changes to really affect $J$. To better visualize this, we can take the cross-section of the paraboloid at constant $\mathbf w_2$ and observe the resulting parabola which shows us how changes in $\mathbf w_1$ affect $J$, then vice-versa to observe $\mathbf w_2$. The parabola for $\mathbf w_1$ would be very steep and that of $\mathbf w_2$ would be more to the flatter side so the gradient tends to be large in the $\mathbf w_1$ direction but small in the $\mathbf w_2$ direction. The gradient at any point on the actual paraboloid is the vector $(\frac{\partial J}{\partial \mathbf w_1}, \frac{\partial J}{\partial \mathbf w_2})$ where each component tells us how fast $J$ rises in the direction of a particular parameter.
 
 If we plot the loss function $J(w,b)$ over $\mathbf w_1$ and $\mathbf w_2$, we observe skewed, elongated contours due to the disproportionate feature ranges. Gradient descent on such a landscape will zigzag inefficiently, delaying convergence.
@@ -35,3 +44,9 @@ $$ x_{j,scaled} = \frac{x_j - \mu}{x_{max} - x_{min}} \; typically \; in \; (-1,
 - Method 3: Z-Score normalization
 
 $$ x_{j,scaled} = \frac{x_j - \mu}{\sigma} $$
+
+# Further Reading
+---
+- [[Linear Regression]]
+- [[Multiple Linear Regression]]
+- [[Gradient Descent]]

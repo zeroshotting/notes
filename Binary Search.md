@@ -1,4 +1,10 @@
+---
+created: 2025-03-16
+confidence level: low
+review count: 0
+---
 # Intro
+---
 While hopping around the internet, I came across a problem. It's quite a simple problem, but it goes something like this:
 
 > _Describe an algorithm for searching a name in a phone book._
@@ -8,6 +14,7 @@ Upon hearing the question, most would opt to scan the book page by page, but thi
 If the phonebook had $n$ pages, then the running time of the first algorithm would be $O(n)$. The second algorithm would run in $O(\frac{n}{2})$ which is still in the same order as the first but slightly more efficient. Binary search would run in $O(log_2(n))$ which is far better than the other two. But how does it work?
 
 # Algorithm
+---
 On hearing the description of the algorithm, I immediately thought "recursion!". I have been using Scheme a lot recently so recursive solutions or the opportunity to use them stand out to me a lot more. It's also worth noting that the algorithm only works for sorted lists. Here's the pseudocode for binary search:
 
 ```
@@ -26,7 +33,7 @@ else:
 ```
 
 # Scheme Implementation
-
+---
 ```scheme
 (define (search low high lst target)
   (if (> low high) (error "target not found")
@@ -46,4 +53,5 @@ else:
 ```
 
 # Further Reading
+---
 - [[Scheme Basics]]

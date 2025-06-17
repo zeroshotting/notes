@@ -1,4 +1,10 @@
-## Intro
+---
+created: 2025-04-01
+confidence level: medium
+review count: 0
+---
+# Intro
+---
 A _linear regression_ model can be described using this function:
 
 $$
@@ -18,6 +24,7 @@ Some helpful notations include:
 + $\hat y$: output prediction
 
 ## Cost Function
+---
 This function tells us how well the model is doing. There are different functions used for this purpose but for linear regression the most common is the _Mean Squared Error_ (MSE) function. This cost function can be expressed as:
 $$
 J(w,b) = \frac{1}{2m}\sum_{i=1}^m(f_{w,b}(x^{(i)}) - y^{(i)})^2
@@ -33,6 +40,7 @@ $$
 An algorithm that allows us to automatically locate the minimum value of $J(w,b)$ is called _gradient descent_.
 
 ## Gradient Descent
+---
 Gradient descent is a method used to minimize functions in general, not just MSE.
 Outline:
 - Start with some $w,b$
@@ -56,4 +64,5 @@ which would lead to an increase in the value of $w$. When a minimum is reached, 
 $$w = w - \alpha \cdot 0$$
 This explains why gradient descent can reach a local minimum even with a fixed learning rate. With each iteration, the derivative becomes smaller in magnitude which means each step gets smaller and smaller. Doing gradient descent this way where each step of gradient descent uses all the training examples, is called "Batch" gradient descent.
 
-## Further Reading
+# Further Reading
+---

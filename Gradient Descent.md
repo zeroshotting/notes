@@ -1,12 +1,14 @@
 ---
 created: 2025-03-16
-confidence level: 
+confidence level: low
 review count: 0
 ---
-## Intro
+# Intro
+---
 It's an optimization algorithm used to minimize functions. It's used in deep learning, linear regression, and a lot of other machine learning models, even functions unrelated to machine learning.
 
 ## More Context
+---
 Gradient descent generally consists of the following steps:
 - Start with random parameter values
 - Evaluate the gradient of function  (loss function in ML) w.r.t. each parameter.
@@ -24,5 +26,6 @@ Gradient Descent Update Function.
  \theta_{new} = \theta_{old} - \alpha \frac{\partial J(\theta_{old})}{\partial \theta_{old}}
  $$
 
-## Further  Reading
+# Further  Reading
+---
 - [[Partial Derivatives in Gradient Descent]]

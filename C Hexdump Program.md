@@ -3,17 +3,19 @@ created: 2025-04-01
 confidence level: low
 review count: 0
 ---
-## Intro
+# Intro
+---
 The goal is to create a hexdump in C. I'll essentially be trying to display binary data in a human readable format.
 
-## More Context
+# More Context
+---
 - `unsigned char` for binary data. Why? [[Endianness]], [[Bitwise Operations]], [[Sign Extension]] issues.
 - `size_t` is an `unsigned int` type that is portable across architectures. it is usually used to represent the size of objects in memory e.g. arrays, string, memory allocations. `unsigned int` is 4 bytes on 32-bit systems and could still be 4 bits on 64-bit systems. `size_t` is guaranteed to be 4 bytes on 32-bit systems and 8 bytes on 64-bit systems. this is good for addressing memory larger than 4gb.
 - The `fread(buffer, element size, no of elements, stream)` function automatically moves the file pointer forward after reading a chunk of bytes. In the example when used in the while loop, it moves automatically to the start of the next 16-byte after reading a 16-byte chunk.
 
 
-## Code
-
+# Code
+---
 ```c
 #include <stdio.h>
 #include <ctype.h>
@@ -60,7 +62,8 @@ int main(int argc, char** argv) {
     return 0;
 }
 ```
-## Further  Reading
+# Further  Reading
+---
 - [[Sign Extension]]
 - [[Endianness]]
 - [[Bitwise Operations]]

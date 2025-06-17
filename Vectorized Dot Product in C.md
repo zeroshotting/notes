@@ -3,6 +3,8 @@ created: 2025-04-05
 confidence level: low
 review count: 0
 ---
+# Intro
+---
 Creating a microkernel (or $\mu$-kernel) to compute the dot product efficiently using SIMD (Simple Instruction, Multiple Data).
 
 In SIMD programming, a microkernel is a small, highly optimized compute kernel that handles a core computational task (dot product, matrix multiply, or a small tile of a larger matrix operation). It's designed to run in tight loops, maximize use of CPU registers, SIMD instructions, and caches, be reused/composed into bigger kernels. In this context it's just a small function/routine that performs a specific computation on a portion of data, usually in a data-parallel way. It's often written to be run many times, one per element, or block of elements in a dataset.

@@ -1,9 +1,9 @@
 {
   "cssTheme": "Minimal",
   "accentColor": "",
-  "interfaceFontFamily": "Iosevka,DejaVu Sans,Droid Sans",
-  "textFontFamily": "Iosevka,DejaVu Sans,DejaVu Serif,Droid Sans",
-  "monospaceFontFamily": "Iosevka,Droid Sans Mono",
+  "interfaceFontFamily": "Inter,Iosevka,DejaVu Sans,Droid Sans",
+  "textFontFamily": "Inter,Cambria Math,Iosevka,DejaVu Sans,DejaVu Serif,Droid Sans",
+  "monospaceFontFamily": "Droid Sans Mono,Iosevka",
   "baseFontSize": 16,
   "showViewHeader": true,
   "nativeMenus": false,

@@ -1,4 +1,10 @@
-# Introduction
+---
+created: 2025-05-07
+confidence level: low
+review count: 0
+---
+# Intro
+---
 The term _machine learning algorithm_ can refer to two different concepts. It could refer to a system that makes predictions based on input data. This is called a _predictor_. It could also refer to a system that optimizes some internal parameters of the predictor to improve it's performance on future unseen input data. This adaptation is called _training_ a system.
 
 Not all data is numerical but it useful to think about data as numbers. In machine learning, data is usually represented as vectors. Vectors can be understood in three ways:
@@ -17,4 +23,5 @@ _Training_ in the context of machine learning involves using the available data 
 - Classification (Optimization, Matrix Decomposition)
 
 ## Linear Algebra
+---
 As mentioned earlier, the mathematical view of a vector allows it to be anything so long as it obeys the addition and scaling rules. Polynomials, audio signals, geometric vectors, and elements of $\mathbb R^n$ can be vectors. Linear Algebra focuses on the similarities between these vector concepts.

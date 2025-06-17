@@ -1,13 +1,18 @@
-## Logical vs Factual Truth
-
+---
+created: 2025-04-01
+confidence level: low
+review count: 0
+---
+# Logical vs Factual Truth
+---
 **Logical truth** refers to a statement that is true by virtue of its logical form, regardless of any particular facts about the world. For example, the statement "If all humans are mortal and Socrates is a human, then Socrates is mortal" is logically true because of its structure.
 
 **Factual truth**, on the other hand, refers to statements whose truth depends on empirical or observed reality. An example is "The Eiffel Tower is in Paris."
 
 Logic provides a framework for analyzing the structure of reasoning. It does not evaluate the truth of premises in the real world but determines what conclusions must follow if those premises are true.
 
-## Truth Values in Propositional Logic
-
+# Truth Values in Propositional Logic
+---
 In propositional logic, every atomic proposition is assigned a truth value: either true (T) or false (F). These assignments are abstract and typically used to model real-world statements.
 
 For example:
@@ -32,7 +37,7 @@ An implication is only false when the premise is true and the conclusion is fals
 For example, the statement "If Fortune is a rabbit, then Charles has no money" is logically true if "Fortune is a rabbit" is false. The implication is not making a meaningful claim about the world; it is a truth of form.
 
 ## Vacuous Truths
-
+---
 A vacuous truth arises when a universal statement refers to an empty domain or a false premise. In such cases, the statement is considered true because there are no counterexamples.
 
 For instance:
@@ -53,7 +58,7 @@ If the set S is empty, this statement is considered true. Since there are no ele
 Rejecting vacuous truth would require every universally quantified statement over an empty set to be false, which would introduce unnecessary complications and exceptions in formal proofs. By treating such statements as true, logic and mathematics remain consistent, general, and clean.
 
 ## Summary
-
+---
 - Logical truth depends on form; factual truth depends on real-world evidence.
 - Implications are only false when the premise is true and the conclusion is false.
 - A false premise in an implication makes the statement vacuously true.

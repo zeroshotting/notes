@@ -1,3 +1,8 @@
+---
+created: 2025-03-13
+confidence level: low
+review count: 0
+---
 If we pray for God's will to be done, even though it will come to pass no matter what, then _what is the true purpose of prayer?_ _What is its true nature?_ _What really is it?_ The primary purpose of prayer might not be to have our requests granted to us.
 
 For us Christians, praying should be as natural as breathing. By praying, we serve/obey God and fulfill His commands to us (_Philippians 4:6–7_ commands to pray in everything). Jesus was very diligent in prayer; He would get up early in the morning and go to a quiet place to pray (_Mark 1:35_). The early church also exemplifies devotion to prayer (_Acts 1:14, Acts 2:42, Acts 3:1_, etc.).
@@ -14,3 +19,6 @@ When we don't pray, it shows that we do not have faith in God's Word and promise
 > God's will is often conditional on man. He involves people in His plans. We see examples of this in _Daniel 9:2-3, Isaiah 62:6-7,_ and _Matthew 13:58_. In _2 Chronicles 7:14_, we see another example that encapsulates the nature of biblical prophecy. In other words, biblical prophecy is often conditional; God's eventual actions are dependent on the response of the people.
 
 So let us delight in prayer as we grow ever closer to our eternal Father and seek His will to be done here on earth. God most certainly listens to our prayers and answers them. He delights in them even (Proverbs 15:8). May God continue to increase us in wisdom and help us to live and work according to His will.
+
+# Further Reading
+---

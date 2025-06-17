@@ -21,6 +21,6 @@ Other supervised learning algorithms include anomaly detection (used in fraud de
 
 ## Further  Reading
 - [[Linear Regression]]
-- [[ML Math Notes]]
+- [[ML Math Introduction]]
 - [[Reinforcement Learning]]
 - [[Gradient Descent]]

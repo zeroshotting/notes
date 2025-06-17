@@ -1,14 +1,16 @@
 ---
-created: ""
-confidence level: 
+created: 2025-03-16
+confidence level: low
 review count: 0
 ---
-## Intro
+# Intro
+---
 This is here even though I have the bare minimum knowledge when it comes to OOP. I know the meaning of the concepts relevant to OOP and that's it. I'm not particularly good at programming as of writing.
 
 I've noticed that OOP in JavaScript is a bit botched. It seems like this wasn't part of the original plans for the language and was just slapped on later down the line, as with many other features of modern JS.
 
-## Object Constructors
+# Object Constructors
+---
 Let's start with object constructors. The issue with these is that they don't act like traditional constructors in OOP.  Take this piece of code for example:
 
 ```javascript
@@ -48,5 +50,6 @@ There are a number of things to address here. Firstly, notice that we are adding
 
 Also, `Animal.call()` is used to call the `Animal` constructor in the context of the `Dog` instance, initializing the properties from `Animal` so that each `Dog` instance has its own properties initialized from `Animal` rather than sharing them. This is done so that `Dog` can inherit properties from `Animal`. `Dog.prototype` is also made to inherit the properties and methods `Animal.prototype` so that it inherits methods from it. It's quite an unintuitive way of going about inheritance, I know. Notice how `Object.create()` is used. This is because objects are stored as references in JavaScript and in this situation we need a new object that would inherit from `Animal.prototype`. If we had done `Dog.prototype = Animal.prototype`, both `Dog` and `Animal` would have the same prototype. This means that any change carried out on `Dog.prototype` would affect `Animal.prototype` and we definitely don't want that. The `class` syntax is pretty much just syntactic sugar to abstract away these implementation details so that OOP feels more like how it does in other languages.
 
-## Further Reading
+# Further Reading
+---
 - [[Object-Oriented Programming]]

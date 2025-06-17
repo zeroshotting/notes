@@ -1,3 +1,8 @@
+---
+created: 2025-05-07
+confidence level: high
+review count: 0
+---
 # Basics of Scheme (Applicable to the LISP family)
 ---
 - Scheme syntax is basically just [S-expressions](https://en.wikipedia.org/wiki/S-expression) (also known as symbolic expression, sexp, or sexpr).
@@ -31,3 +36,5 @@
 - <span>&grave;</span> is quasiquote, used for constructing expressions with optional evaluation.
 
 # Further Reading
+---
+- [[Structure and Interpretation of Computer Programs]]
