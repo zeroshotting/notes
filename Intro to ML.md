@@ -1,9 +1,9 @@
 ---
 created: 2025-04-08
 confidence level: high
-review count: 0
+review count: 1
 ---
-Machine Learning is the process of enabling computers to learn from data and make decisions or predictions without being explicitly programmed to do so.
+Machine Learning is the process of enabling computers to learn from data and make decisions or predictions without being explicitly programmed to do so. A model is a system that tries to mimic patterns in data to enable these predictions. It is the framework in which the learning takes place. The process of trying to find the patterns is called learning.
 
 Some common types include supervised and unsupervised learning.
 

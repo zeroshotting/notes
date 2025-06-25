@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Debugging Gradient Descent.md",
+                "file": "Systems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Debugging Gradient Descent"
+              "title": "Systems"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Feature Scaling.md",
+                "file": "Debugging Gradient Descent.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Feature Scaling"
+              "title": "Debugging Gradient Descent"
             }
           },
           {
@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -195,16 +195,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "9d22e9d070ea53c0",
+  "active": "1679761e99013cb2",
   "lastOpenFiles": [
     "Feature Scaling.md",
-    "Debugging Gradient Descent.md",
+    "Systems.md",
     "Partial Derivatives in Gradient Descent.md",
+    "templates/note-template.md",
+    "Intro to ML.md",
+    "Debugging Gradient Descent.md",
     "Multiple Linear Regression.md",
     "NumPy.md",
     "Gradient Descent.md",
     "Linear Regression.md",
-    "Intro to ML.md",
     "Vectorized Dot Product in C.md",
     "Time Management.md",
     "Scheme Basics.md",
@@ -220,9 +222,7 @@
     "C Hexdump Program.md",
     "Binary Search.md",
     "Reinforcement Learning.md",
-    "templates/note-template.md",
     "drawings/Scratch.md",
-    "drawings/Understanding GEMM.md",
     "Pasted image 20250430131115.png",
     "Pasted image 20250430131030.png",
     "Pasted image 20250430131028.png",
