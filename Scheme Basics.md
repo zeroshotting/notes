@@ -37,4 +37,4 @@ review count: 0
 
 # Further Reading
 ---
-- [[Structure and Interpretation of Computer Programs]]
+- [[L02 - Functional Programming]]

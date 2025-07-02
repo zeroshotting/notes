@@ -27,7 +27,7 @@ The cost function remains the same as in univariate linear regression.
 # Gradient Descent
 ---
 The calculations involved in gradient descent change slightly:
-$$ \mathbf w = \mathbf w - \alpha\cdot\frac{\partial}{\partial{\mathbf w_j}}J(\mathbf w,b) \; for \; j = 0,1,...,n $$
+$$ w_j = w_j - \alpha\cdot\frac{\partial}{\partial{w_j}}J(\mathbf w,b) \; for \; j = 0,1,...,n $$
 $$ b = b - \alpha\cdot\frac{\partial}{\partial b}J(\mathbf w,b) $$
 $\mathbf w$ is a vector here rather than a scalar as in univariate regression.
 

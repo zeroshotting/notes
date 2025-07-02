@@ -22,20 +22,6 @@
             }
           },
           {
-            "id": "1679761e99013cb2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Debugging Gradient Descent.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Debugging Gradient Descent"
-            }
-          },
-          {
             "id": "9d22e9d070ea53c0",
             "type": "leaf",
             "state": {
@@ -48,9 +34,37 @@
               "icon": "lucide-file",
               "title": "Partial Derivatives in Gradient Descent"
             }
+          },
+          {
+            "id": "1679761e99013cb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS 61A/L02 - Functional Programming.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "L02 - Functional Programming"
+            }
+          },
+          {
+            "id": "5e83025f08ba621b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linear Regression.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linear Regression"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -195,34 +209,36 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "1679761e99013cb2",
+  "active": "5e83025f08ba621b",
   "lastOpenFiles": [
+    "CS 61A/L02 - Functional Programming.md",
+    "Scheme Basics.md",
+    "Implications and Vacuous Truths.md",
+    "Structure and Interpretation of Computer Programs.md",
+    "CS 61A/Untitled",
+    "CS 61A",
+    "Multiple Linear Regression.md",
+    "Debugging Gradient Descent.md",
     "Feature Scaling.md",
     "Systems.md",
     "Partial Derivatives in Gradient Descent.md",
     "templates/note-template.md",
     "Intro to ML.md",
-    "Debugging Gradient Descent.md",
-    "Multiple Linear Regression.md",
     "NumPy.md",
     "Gradient Descent.md",
     "Linear Regression.md",
     "Vectorized Dot Product in C.md",
     "Time Management.md",
-    "Scheme Basics.md",
     "README.md",
     "On The Issue of Prayer.md",
     "ML Math Introduction.md",
     "Long notes on Web Development.md",
     "Learning Goals.md",
     "Latent Cognition and LLM Parallels - A Personal Observation.md",
-    "Implications and Vacuous Truths.md",
     "Hobby Corner.md",
     "Funky JavaScript OOP.md",
     "C Hexdump Program.md",
     "Binary Search.md",
-    "Reinforcement Learning.md",
-    "drawings/Scratch.md",
     "Pasted image 20250430131115.png",
     "Pasted image 20250430131030.png",
     "Pasted image 20250430131028.png",
