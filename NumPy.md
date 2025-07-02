@@ -60,5 +60,9 @@ This is a mechanism that allows for element-wise operations on arrays of differe
 2. If the sizes of the dimensions are different, the array with size 1 in that dimension is stretched to match the size of the other array.
 3. If the sizes of the dimensions are incompatible (i.e. neither is 1 and they are not the same), broadcasting fails, and an error is raised
 
-# Further  Reading
+# Further Reading
+- [[Multiple Linear Regression]]
+- [[ML Math Introduction]]
+- [[Vectorized Dot Product in C]]
+- [[GEMM]]
 ---

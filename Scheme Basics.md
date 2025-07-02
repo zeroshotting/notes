@@ -38,3 +38,4 @@ review count: 0
 # Further Reading
 ---
 - [[L02 - Functional Programming]]
+- [[Binary Search]]

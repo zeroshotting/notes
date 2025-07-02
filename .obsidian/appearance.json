@@ -1,12 +1,13 @@
 {
-  "cssTheme": "Minimal",
-  "accentColor": "",
-  "interfaceFontFamily": "Inter,Iosevka,DejaVu Sans,Droid Sans",
-  "textFontFamily": "Inter,Cambria Math,Iosevka,DejaVu Sans,DejaVu Serif,Droid Sans",
-  "monospaceFontFamily": "Droid Sans Mono,Iosevka",
+  "cssTheme": "Sanctum",
+  "accentColor": "#2968a3",
+  "interfaceFontFamily": "DejaVu Sans,Iosevka,Droid Sans",
+  "textFontFamily": "DejaVu Sans,DejaVu Serif,Cambria Math,Iosevka,Droid Sans",
+  "monospaceFontFamily": "DejaVu Sans Mono,Droid Sans Mono,Iosevka",
   "baseFontSize": 16,
   "showViewHeader": true,
   "nativeMenus": false,
   "enabledCssSnippets": [],
-  "showRibbon": false
+  "showRibbon": false,
+  "theme": "system"
 }

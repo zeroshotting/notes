@@ -51,5 +51,5 @@ There are a number of things to address here. Firstly, notice that we are adding
 Also, `Animal.call()` is used to call the `Animal` constructor in the context of the `Dog` instance, initializing the properties from `Animal` so that each `Dog` instance has its own properties initialized from `Animal` rather than sharing them. This is done so that `Dog` can inherit properties from `Animal`. `Dog.prototype` is also made to inherit the properties and methods `Animal.prototype` so that it inherits methods from it. It's quite an unintuitive way of going about inheritance, I know. Notice how `Object.create()` is used. This is because objects are stored as references in JavaScript and in this situation we need a new object that would inherit from `Animal.prototype`. If we had done `Dog.prototype = Animal.prototype`, both `Dog` and `Animal` would have the same prototype. This means that any change carried out on `Dog.prototype` would affect `Animal.prototype` and we definitely don't want that. The `class` syntax is pretty much just syntactic sugar to abstract away these implementation details so that OOP feels more like how it does in other languages.
 
 # Further Reading
----
+- [[Long notes on Web Development]]
 - [[Object-Oriented Programming]]

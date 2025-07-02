@@ -161,3 +161,12 @@ void __8x8_microkernel(float* A, float* B, float* C, int lda, int ldb, int ldc) 
 	}
 }
 ```
+# Further Reading
+- [[Systems]]
+- [[C Hexdump Program]]
+- [[Multiple Linear Regression]]
+- [[ML Math Introduction]]
+- [[NumPy]]
+- [[GEMM]]
+
+8x8 microkernel in C using SIMD:

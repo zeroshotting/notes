@@ -31,10 +31,26 @@ $$ w_j = w_j - \alpha\cdot\frac{\partial}{\partial{w_j}}J(\mathbf w,b) \; for \;
 $$ b = b - \alpha\cdot\frac{\partial}{\partial b}J(\mathbf w,b) $$
 $\mathbf w$ is a vector here rather than a scalar as in univariate regression.
 
+Quick Note: The bias does not need to be calculated separately from the weights. Using something called the _bias trick_ or _bias augmentation_, we can add the bias to the weight vector and the model will behave the same.
+
+Given:
+$$ \hat y = \mathbf w \cdot \mathbf x + b \; with \; \mathbf w \in \mathbb R^N,\; \mathbf x \in \mathbb R^N,\; b \in \mathbb R $$
+
+Define $\mathbf x' = [x_1, x_2,..., x_N, 1] \in \mathbb R^{N+1}$
+Define $\mathbf x' = [w_1, w_2,...,w_N,b] \in \mathbb R^{N+1}$
+
+Then the model prediction becomes:
+$$ \hat y = \mathbf w \cdot \mathbf x + b = \mathbf w' \cdot \mathbf x' $$
+And the gradient descent update step becomes:
+$$ w_j' \rightarrow w_j' - \alpha \cdot \frac{\partial J}{\partial w_j} $$
+
 ## Further Reading
----
-+ [[Vectorized Dot Product in C]]
+- [[Linear Regression]]
+- [[Vectorized Dot Product in C]]
 - [[Feature Scaling]]
 - [[Gradient Descent]]
+- [[Debugging Gradient Descent]]
 - [[Partial Derivatives in Gradient Descent]]
-+ [[ML Math Introduction]]
+- [[ML Math Introduction]]
+- [[NumPy]]
+- [[GEMM]]

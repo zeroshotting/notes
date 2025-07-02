@@ -19,7 +19,11 @@ A type of unsupervised learning is clustering. For example, in Google News, simi
 
 Other supervised learning algorithms include anomaly detection (used in fraud detection) and dimensionality reduction.
 
-## Further  Reading
+## Further Reading
 - [[Linear Regression]]
-- [[ML Math Introduction]]
+- [[Multiple Linear Regression]]
 - [[Gradient Descent]]
+- [[Debugging Gradient Descent]]
+- [[Partial Derivatives in Gradient Descent]]
+- [[Feature Scaling]]
+- [[ML Math Introduction]]

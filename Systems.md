@@ -13,7 +13,7 @@ A system already exists - a vague understanding of how tasks should be performed
 
 # How to Formalize
 ----
-Make no mistake, we are not talking about rules. As I mentioned earlier, systems will differ from person to person so naturally it would be hard to find two people with identical ideal systems. The first step to formalize, is to understand how you operate. What is the best time for you so study, how long can you study at a stretch, what are your goals
+Make no mistake, we are not talking about rules. As I mentioned earlier, systems will differ from person to person so naturally it would be hard to find two people with identical ideal systems. The first step to formalize, is to understand the terrain.  If you're formalizing a lifestyle-system you have to ask, what is the best time for you so study?  How long can you study at a stretch? What are your goals? Optimize along your own surface. If we're dealing with less abstract instances of formalization, say, mathematics, you the same concept applies just applied in a different way—different questions. You'd ask, how can I explore the problem terrain to capture latent characteristics? How can I optimize for pattern recognition? Are there adjacent problems to observe? Is there opportunity for abstraction? Rely on the combination of intellect, precedence and intuition.
 
 
 
@@ -22,4 +22,9 @@ Make no mistake, we are not talking about rules. As I mentioned earlier, systems
 - figure out why you're doing what you're doing. write down your motivations
 - gather resources
 
-# Further  Reading
+# Further Reading
+- [[Time Management]]
+- [[Learning Goals]]
+- [[Binary Search]]
+- [[C Hexdump Program]]
+- [[Vectorized Dot Product in C]]

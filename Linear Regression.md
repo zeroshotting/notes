@@ -65,4 +65,9 @@ $$w = w - \alpha \cdot 0$$
 This explains why gradient descent can reach a local minimum even with a fixed learning rate. With each iteration, the derivative becomes smaller in magnitude which means each step gets smaller and smaller. Doing gradient descent this way where each step of gradient descent uses all the training examples, is called "Batch" gradient descent.
 
 # Further Reading
+- [[Multiple Linear Regression]]
+- [[Gradient Descent]]
+- [[Debugging Gradient Descent]]
+- [[Partial Derivatives in Gradient Descent]]
+- [[Feature Scaling]]
 ---

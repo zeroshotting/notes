@@ -11,7 +11,7 @@ Sometimes, having features that differ vastly in range can produce problems duri
 
 $$ f_{w,b} = w_1 \cdot x_1 + w_2 \cdot x_2 + b $$
 
-where $\mathbf x_1$ is the house size (in square feet) and $\mathbf x_2$ is the number of bedrooms.
+where $x_1$ is the house size (in square feet) and $x_2$ is the number of bedrooms.
 
 If the house size ranges from 300–2000 feet and bedroom count from 1–5, then the input features differ significantly in scale. To keep predictions accurate, the model must compensate by adjusting the parameter magnitudes accordingly. For instance, given a house of 2000 ft^2 and 5 bedrooms priced at $500k:
 
@@ -46,7 +46,8 @@ $$ x_{j,scaled} = \frac{x_j - \mu}{x_{max} - x_{min}} \; typically \; in \; (-1,
 $$ x_{j,scaled} = \frac{x_j - \mu}{\sigma} $$
 
 # Further Reading
----
 - [[Linear Regression]]
 - [[Multiple Linear Regression]]
 - [[Gradient Descent]]
+- [[Debugging Gradient Descent]]
+- [[Partial Derivatives in Gradient Descent]]

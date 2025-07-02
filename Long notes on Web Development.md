@@ -151,3 +151,6 @@ const toggleStatus = () => {
 ```
 
 > ⚠ The 2nd composition method creates _shared state_ between component instances. Use with care in dynamic UIs.
+
+## Further Reading
+- [[Funky JavaScript OOP]]

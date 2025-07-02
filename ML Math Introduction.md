@@ -22,6 +22,11 @@ _Training_ in the context of machine learning involves using the available data 
 - Density Estimation (Probability & Distributions, Analytic Geometry)
 - Classification (Optimization, Matrix Decomposition)
 
+## Further Reading
+- [[NumPy]]
+- [[Vectorized Dot Product in C]]
+- [[GEMM]]
+
 ## Linear Algebra
 ---
 As mentioned earlier, the mathematical view of a vector allows it to be anything so long as it obeys the addition and scaling rules. Polynomials, audio signals, geometric vectors, and elements of $\mathbb R^n$ can be vectors. Linear Algebra focuses on the similarities between these vector concepts.

@@ -26,6 +26,11 @@ Gradient Descent Update Function.
  \theta_{new} = \theta_{old} - \alpha \frac{\partial J(\theta_{old})}{\partial \theta_{old}}
  $$
 
-# Further  Reading
+# Further Reading
+- [[Linear Regression]]
+- [[Multiple Linear Regression]]
+- [[Debugging Gradient Descent]]
+- [[Partial Derivatives in Gradient Descent]]
+- [[Feature Scaling]]
 ---
 - [[Partial Derivatives in Gradient Descent]]

@@ -20,8 +20,9 @@ $$ \nabla J = [\frac{\partial J}{\partial w_1}, \frac{\partial J}{\partial w_2}]
 
 The partial derivatives with respect to $w_1$ and $w_2$ are the components of the gradient vector. These individual partial derivatives can be understood to be directional derivatives along their respective axes. A directional derivative is the rate at which a function changes in a specific direction from a particular point. Directional derivatives are only partials when the direction aligns with the axes.
 
-## Further  Reading
+## Further Reading
 - [[Linear Regression]]
 - [[Multiple Linear Regression]]
 - [[Gradient Descent]]
+- [[Debugging Gradient Descent]]
 - [[Feature Scaling]]
