@@ -59,7 +59,7 @@ $$ z_i = \frac{x_i - \mu}{\sigma} $$
 then the mean of $z$ is 0, and the standard deviation becomes:
 
 $$ \sqrt{\frac{1}{m} \sum_{i=1}^m z_i^2} = \sqrt{\frac{1}{m} \sum_{i=1}^m \left(\frac{x_i - \mu}{\sigma}\right)^2} = \sqrt{\frac{1}{\sigma^2} \cdot \frac{1}{m} \sum_{i=1}^m (x_i - \mu)^2} = 1 $$
----
+
 Dividing by the standard deviation **rescales all deviations** so their average squared size becomes 1. This produces a standardized dataset where the unit of measurement is the original standard deviation, making spread uniform across features.
 
 # Further  Reading

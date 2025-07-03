@@ -35,6 +35,11 @@ Let's take a deeper look at what is going on here. If we plot plot the loss func
 
 If we plot the loss function $J(w,b)$ over $w_1$ and $w_2$, we observe skewed, elongated contours due to the disproportionate feature ranges. Gradient descent on such a landscape will zigzag inefficiently, delaying convergence.
 
+It's also worth noting that when calculating the partial derivative of the parameters for gradient descent,
+
+$$ \frac{\partial}{\partial w_j}J(\mathbf w, b) = \frac{1}{m} \sum_{i=1}{m}(f_{\mathbf w, b}(x^{(i)}) - y^{(i)})x_j^{(i)} $$
+the weights all have the error in common but the feature that multiplies the error is different for different weights. Having features that have different ranges would lead to uneven updates for the weights.
+
 In such situations, it helps greatly to scale the features so they become comparable in range. So how do we go about achieving this? There are two ways:
 
 - Method 1: Basic min-max scaling.

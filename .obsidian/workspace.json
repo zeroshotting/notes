@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 61A/L02 - Functional Programming.md",
+                "file": "Relationship between Mean, Variance and SD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "L02 - Functional Programming"
+              "title": "Relationship between Mean, Variance and SD"
             }
           }
         ],
@@ -107,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "2d5bea29a01e9f61",
@@ -197,27 +198,27 @@
   },
   "active": "be2314ef38f70d75",
   "lastOpenFiles": [
-    "Relationship between Mean, Variance and SD.md",
-    "Scheme Basics.md~",
-    "CS 61A/L02 - Functional Programming.md",
-    "CS 61A",
-    "Feature Scaling.md",
-    "Debugging Gradient Descent.md",
+    "ML Math Introduction.md",
     "Multiple Linear Regression.md",
-    "NumPy.md",
-    "Systems.md",
-    "GEMM.md",
+    "Feature Scaling.md",
     "Partial Derivatives in Gradient Descent.md",
-    "On The Issue of Prayer.md",
     "README.md",
+    "Relationship between Mean, Variance and SD.md",
+    "Scheme Basics.md",
+    "Systems.md",
+    "Time Management.md",
+    "GEMM.md",
+    "CS 61A/L02 - Functional Programming.md",
+    "Scheme Basics.md~",
+    "CS 61A",
+    "Debugging Gradient Descent.md",
+    "NumPy.md",
+    "On The Issue of Prayer.md",
     "Hobby Corner.md",
     "Vectorized Dot Product in C.md",
     "drawings/Understanding GEMM.md",
     "drawings/Scratch.md",
-    "Time Management.md",
     "scratch/Feature Scaling.md",
-    "Scheme Basics.md",
-    "ML Math Introduction.md",
     "Long notes on Web Development.md",
     "Linear Regression.md",
     "Learning Goals.md",
