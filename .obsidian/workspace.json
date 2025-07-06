@@ -134,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "2d5bea29a01e9f61",
@@ -222,7 +223,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e2a4c8b789c552c8",
+  "active": "18dc5e5840d7eaff",
   "lastOpenFiles": [
     "Multiple Linear Regression.md",
     "GEMM.md",
