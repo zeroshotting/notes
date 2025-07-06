@@ -64,3 +64,5 @@ Dividing by the standard deviation **rescales all deviations** so their average 
 
 # Further  Reading
 ---
+- [[Intuition Behind Scaling]]
+- [[Feature Scaling]]

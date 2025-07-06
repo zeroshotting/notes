@@ -1,8 +1,8 @@
 {
-  "cssTheme": "Sanctum",
+  "cssTheme": "Minimal",
   "accentColor": "#2968a3",
-  "interfaceFontFamily": "DejaVu Sans,Iosevka,Droid Sans",
-  "textFontFamily": "DejaVu Sans,DejaVu Serif,Cambria Math,Iosevka,Droid Sans",
+  "interfaceFontFamily": "DejaVu Sans,Inter,Iosevka,Droid Sans",
+  "textFontFamily": "DejaVu Sans,DejaVu Serif,Inter,Cambria Math,Iosevka,Droid Sans",
   "monospaceFontFamily": "DejaVu Sans Mono,Droid Sans Mono,Iosevka",
   "baseFontSize": 16,
   "showViewHeader": true,

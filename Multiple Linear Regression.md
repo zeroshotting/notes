@@ -36,8 +36,8 @@ Quick Note: The bias does not need to be calculated separately from the weights.
 Given:
 $$ \hat y = \mathbf w \cdot \mathbf x + b \; with \; \mathbf w \in \mathbb R^N,\; \mathbf x \in \mathbb R^N,\; b \in \mathbb R $$
 
-Define $\mathbf x' = [x_1, x_2,..., x_N, 1] \in \mathbb R^{N+1}$
-Define $\mathbf x' = [w_1, w_2,...,w_N,b] \in \mathbb R^{N+1}$
+Define $\mathbf x' = [1, x_1, x_2,..., x_N] \in \mathbb R^{N+1}$
+Define $\mathbf w' = [b, w_1, w_2,...,w_N] \in \mathbb R^{N+1}$
 
 Then the model prediction becomes:
 $$ \hat y = \mathbf w \cdot \mathbf x + b = \mathbf w' \cdot \mathbf x' $$

@@ -13,16 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Feature Scaling.md",
+                "file": "Hobby Corner.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Feature Scaling"
+              "title": "Hobby Corner"
+            }
+          },
+          {
+            "id": "b6cc903d19e3771c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Intuition Behind Scaling.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Intuition Behind Scaling"
             }
           },
           {
             "id": "6baccd54b91a8c12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Relationship between Mean, Variance and SD.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Relationship between Mean, Variance and SD"
+            }
+          },
+          {
+            "id": "be2314ef38f70d75",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,21 +64,21 @@
             }
           },
           {
-            "id": "be2314ef38f70d75",
+            "id": "fce6334643da2872",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Relationship between Mean, Variance and SD.md",
+                "file": "GEMM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Relationship between Mean, Variance and SD"
+              "title": "GEMM"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -82,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Understanding GEMM",
+                "query": "project",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,12 +131,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "2d5bea29a01e9f61",
@@ -196,14 +224,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "be2314ef38f70d75",
+  "active": "fce6334643da2872",
   "lastOpenFiles": [
-    "ML Math Introduction.md",
-    "Multiple Linear Regression.md",
     "Feature Scaling.md",
+    "Hobby Corner.md",
+    "Intuition Behind Scaling.md",
+    "Relationship between Mean, Variance and SD.md",
+    "Multiple Linear Regression.md",
+    "Debugging Gradient Descent.md",
+    "ML Math Introduction.md",
     "Partial Derivatives in Gradient Descent.md",
     "README.md",
-    "Relationship between Mean, Variance and SD.md",
     "Scheme Basics.md",
     "Systems.md",
     "Time Management.md",
@@ -211,10 +242,8 @@
     "CS 61A/L02 - Functional Programming.md",
     "Scheme Basics.md~",
     "CS 61A",
-    "Debugging Gradient Descent.md",
     "NumPy.md",
     "On The Issue of Prayer.md",
-    "Hobby Corner.md",
     "Vectorized Dot Product in C.md",
     "drawings/Understanding GEMM.md",
     "drawings/Scratch.md",

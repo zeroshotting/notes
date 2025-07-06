@@ -43,7 +43,7 @@ the weights all have the error in common but the feature that multiplies the err
 In such situations, it helps greatly to scale the features so they become comparable in range. So how do we go about achieving this? There are two ways:
 
 - Method 1: Basic min-max scaling.
-$$ x_{j,scaled} = \frac{x_j}{x_{max} - x_{min}} \; s.t. \; 0 < x_{j,scaled} < 1 $$
+$$ x_{j,scaled} = \frac{x_j - x_{min}}{x_{max} - x_{min}} \; s.t. \; 0 < x_{j,scaled} < 1 $$
 - Method 2: Mean normalization
 $$ x_{j,scaled} = \frac{x_j - \mu}{x_{max} - x_{min}} \; typically \; in \; (-1, 1) \; but \; not \; strictly \; bounded $$
 - Method 3: Z-Score normalization
@@ -56,3 +56,4 @@ $$ x_{j,scaled} = \frac{x_j - \mu}{\sigma} $$
 - [[Gradient Descent]]
 - [[Debugging Gradient Descent]]
 - [[Partial Derivatives in Gradient Descent]]
+- [[Intuition Behind Scaling]]
