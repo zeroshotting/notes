@@ -77,8 +77,7 @@
               "title": "GEMM"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -131,8 +130,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -224,13 +222,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "fce6334643da2872",
+  "active": "e2a4c8b789c552c8",
   "lastOpenFiles": [
+    "Multiple Linear Regression.md",
+    "GEMM.md",
     "Feature Scaling.md",
     "Hobby Corner.md",
     "Intuition Behind Scaling.md",
     "Relationship between Mean, Variance and SD.md",
-    "Multiple Linear Regression.md",
     "Debugging Gradient Descent.md",
     "ML Math Introduction.md",
     "Partial Derivatives in Gradient Descent.md",
@@ -238,7 +237,6 @@
     "Scheme Basics.md",
     "Systems.md",
     "Time Management.md",
-    "GEMM.md",
     "CS 61A/L02 - Functional Programming.md",
     "Scheme Basics.md~",
     "CS 61A",

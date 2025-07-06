@@ -6,9 +6,12 @@
 - Project Almanac
 - Chronicle
 
-## Anime
+# Anime
 ---
 - Boruto
 - Bleach
 - Initial D: Fifth Stage
 
+# Undertakings
+---
+- Personal website (minimalist, mimics typeset composition, takes inspo from Gwern).
